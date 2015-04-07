@@ -36,15 +36,6 @@ app.route('/scraper')
   
     res.sendStatus(res.statusCode);  
     article.close();
-//   myFirebaseRef.child("articles").once("value", function(snapshot) {  
-          
-//           res.status(200).json({
-//           title:snapshot.val()['title'],    
-//           content: snapshot.val()['content']});
-     
-//       }, function (errorObject) {
-//           console.log("The read failed: " + errorObject.code);
-//    });       
 });
   
 })
